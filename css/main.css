@@ -363,12 +363,18 @@ header ul li .last {
 /* about */
 .sub-title {
     font-size: 25px;
-    text-align: center;
     color: white;
 }
 
 .sub-title p {
     line-height: 40px;
+}
+
+.sub-title p:first-child {
+    font-family: 'SBAggroB';
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 15px;
 }
 
 .sub-title p span {
@@ -413,7 +419,7 @@ header ul li .last {
 
 .about-info-wrap {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 5.208vw;
 }
@@ -757,6 +763,11 @@ footer p {
         line-height: 37px;
     }
 
+    .sub-title p:first-child {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
     .about-info-wrap {
         justify-content: space-between;
     }
@@ -846,6 +857,11 @@ footer p {
 
     .sub-title p {
         line-height: 32px;
+    }
+
+    .sub-title p:first-child {
+        font-size: 21px;
+        line-height: 35px;
     }
 
     .skill-info-wrap {
