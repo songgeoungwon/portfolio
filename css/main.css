@@ -525,6 +525,10 @@ header ul li .last {
     padding-bottom: 100px;
 }
 
+.port-img {
+    width: 50%;
+}
+
 .port-img img {
     width: 100%;
 }
@@ -592,6 +596,10 @@ header ul li .last {
 
 .github-btn i {
     padding-right: 10px;
+}
+
+.github-btn a {
+    color: black;
 }
 
 .port-info2 {
